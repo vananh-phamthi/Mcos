@@ -1,16 +1,19 @@
 # Aboitiz Foods — MCOS & P&L Financial Stress Test & Budget 2027 Dashboard
 
-Executive Leadership Presentation Dashboard built with **Streamlit** and **Plotly** for multi-year financial performance, cost of sales (COGS), standard absorption manufacturing cost of sales (MCOS), and variance analysis across business entities.
+Executive Leadership Presentation Dashboard built with **Streamlit** and **Plotly** for multi-year financial performance, cost of sales (COGS), standard absorption manufacturing cost of sales (MCOS), 8-Month YTD Actuals tracking, and variance analysis across business entities.
 
 ---
 
-## 🌟 Key Highlights
-- **Multi-Year Financial Scenarios**:
-  - **2024 Actual** (Baseline)
-  - **2025 Actual (Y-1)**
-  - **2026 Budget**
+## 🌟 Key Highlights & Scenarios
+- **Complete Multi-Year Scenarios & Benchmarks**:
+  - **2026 Actual (8M YTD Jan–Aug 2026)**: Extracted directly from `08.2026 Stress Test_PL_Monthly_MCOS.xlsx`
+  - **2026 Budget (8M YTD Benchmark)**
+  - **2025 Actual (8M YoY Benchmark)**
+  - **2024 Actual** (Full Year Baseline)
+  - **2025 Actual (Y-1 Full Year)**
+  - **2026 Budget** (Full Year)
   - **2026 LTF (8+4 Latest Forecast)**
-  - **2027 Budget**
+  - **2027 Budget Target**
 - **Core Financial Accounts**:
   - **Volumes (MT)**: Total Feed, Commercial Trading (CT), Day-old chicks (DOC)
   - **Revenue**: Gross Sales, Concessions, Net Sales (TP, RC, IC)
@@ -45,11 +48,11 @@ Then open your browser at `http://localhost:8501`.
 ---
 
 ## ☁️ Deploy to Streamlit Community Cloud
-1. Push this repository to your GitHub account (`vananh-phamthi`).
+1. Repo is live at: `https://github.com/vananh-phamthi/Mcos`
 2. Go to [share.streamlit.io](https://share.streamlit.io/).
-3. Select this repository and branch `main`.
+3. Select repository `vananh-phamthi/Mcos` and branch `main`.
 4. Set Main file path: `app.py`.
 5. Click **Deploy!**
 
 ---
-*Created for Aboitiz Foods Executive Presentation | Currency: USD '000*
+*Created for Aboitiz Foods Executive Presentation | Currency: USD '000 | Data Sources: `08.2026 Stress Test_PL_Monthly_MCOS.xlsx` & `2026LTF8+4 vs 2027B Stress Test_PL_Monthly_MCOS.xlsx`*
